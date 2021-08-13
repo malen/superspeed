@@ -400,10 +400,10 @@ runtest() {
 runall() {
 	checkroot;
 	checksystem;
-	checkpython;
-	checkcurl;
-	checkwget;
-	checkspeedtest;
+	#checkpython;
+	#checkcurl;
+	#checkwget;
+	#checkspeedtest;
 	clear
 	speed_test;
 	preinfo;
